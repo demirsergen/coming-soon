@@ -5,6 +5,12 @@
   padding: 0;
 }
 
+body {
+  background-color: #fdf5f6;
+  font-size: 16px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
 .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -32,6 +38,65 @@
 
 .container .main__content .main__content--content {
   width: 70%;
+}
+
+.container .main__content .main__content--content h1 {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  font-size: 55px;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+  line-height: 1.1em;
+}
+
+.container .main__content .main__content--content h1 span {
+  color: #c7979b;
+  font-weight: 100;
+}
+
+.container .main__content .main__content--content p {
+  color: #c0a8a8;
+  margin-bottom: 1em;
+}
+
+.container .main__content .main__content--content input {
+  border: 1px solid #c7979b;
+  border-radius: 20px;
+  padding: 2em;
+  width: 100%;
+  background-color: transparent;
+}
+
+.container .main__content .main__content--content input::-webkit-input-placeholder {
+  color: #c0a8a8;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+}
+
+.container .main__content .main__content--content input:-ms-input-placeholder {
+  color: #c0a8a8;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+}
+
+.container .main__content .main__content--content input::-ms-input-placeholder {
+  color: #c0a8a8;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+}
+
+.container .main__content .main__content--content input::placeholder {
+  color: #c0a8a8;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+}
+
+.container .main__content .main__content--content button {
+  border: 1px solid #f2cfcf;
+  border-radius: 40px;
+  padding: 2em;
+  width: 120px;
+  background-color: #f2cfcf;
 }
 
 .attribution {
